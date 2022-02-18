@@ -1025,7 +1025,7 @@ button.swiper-pagination-bullet {
   align-items: center;
   color: #fff;
   border-radius: 0.625rem;
-  padding: 1.1875rem 1.625rem;
+  padding: 0.90625rem 1.625rem;
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 1.2777777778;
@@ -2016,6 +2016,11 @@ button.swiper-pagination-bullet {
 }
 @media (min-width: 75em) {
   .mainbock {
+    height: 100vh;
+  }
+}
+@media (min-width: 75em) {
+  .mainbock {
     padding-bottom: 6.25rem;
   }
 }
@@ -2095,30 +2100,25 @@ button.swiper-pagination-bullet {
 }
 @media (min-width: 50em) and (max-width: 75em) {
   .mainbock__title {
-    font-size: calc(2.1875rem + 2.8125 * (((100vw - 50rem)) / ((25))));
+    font-size: calc(2.5rem + 2.5 * (((100vw - 50rem)) / ((25))));
   }
 }
 @media (max-width: 50em) {
   .mainbock__title {
-    font-size: 2.1875rem;
+    font-size: 2.5rem;
   }
 }
 .mainbock__title:not(:last-child) {
   margin-bottom: 0.375em;
 }
-@media (max-width: 29.99875em) and (min-width: 75em) {
+@media (max-width: 47.99875em) {
   .mainbock__title {
-    font-size: 2.3125rem;
+    text-align: center;
   }
 }
-@media (max-width: 29.99875em) and (min-width: 20em) and (max-width: 75em) {
+@media (max-width: 29.99875em) {
   .mainbock__title {
-    font-size: calc(1.5rem + 0.8125 * (((100vw - 20rem)) / ((55))));
-  }
-}
-@media (max-width: 29.99875em) and (max-width: 20em) {
-  .mainbock__title {
-    font-size: 1.5rem;
+    font-size: 1.6875rem;
   }
 }
 .mainbock__text {
