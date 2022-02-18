@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220214192043">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		.preloader {
+			transition: all 0.3s ease 0s;
+			position: fixed;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			overflow: hidden;
+			background: #ffffff;
+			z-index: 1001;
+
+		}
+
+
+		.preloader__image {
+			position: relative;
+			top: 50%;
+			left: 50%;
+			width: 70px;
+			height: 70px;
+			margin-top: -35px;
+			margin-left: -35px;
+			text-align: center;
+			animation: preloader-rotate 2s infinite linear;
+		}
+
+		@keyframes preloader-rotate {
+			100% {
+				transform: rotate(360deg);
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="preloader">
+		<svg class="preloader__image" role="img" width="70px" height="70px" viewBox="0 0 520 520">
+			<path fill='#F1A501' d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+			</path>
+		</svg>
+	</div>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__wrapper">
+				<div class="header__container">
+					<div class="header__logo">
+						<img src="img/logo.svg?_v=1644859243685" alt="">
+					</div>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="" class="menu__link">Desitnations</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Hotels</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Flights</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Bookings</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div data-da=".menu__body, 479.98, 2" class="header__actions actions">
+						<a href="" class="actions__button">Login</a>
+						<a href="" class="actions__button actions__button_border">Sign up</a>
+					</div>
+					<div class="header__language language">
+						<select name="form[]" class="language__form">
+							<option value="1" selected>EN</option>
+							<option value="2">RU</option>
+							<option value="3">UK</option>
+						</select>
+					</div>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__mainblock mainbock">
+				<div class=" mainbock__plane mainbock__plane_1">
+					<img src="img/plane.svg?_v=1644859243685" alt="">
+				</div>
+				<div class="mainbock__plane mainbock__plane_2">
+					<img src="img/plane.svg?_v=1644859243685" alt="">
+				</div>
+				<div class="mainbock__plane mainbock__plane_3">
+					<img src="img/plane.svg?_v=1644859243685" alt="">
+				</div>
+
+				<div class="mainbock__container">
+					<div class="mainbock__content">
+						<div class="mainbock__subtitle">Best Destinations around the world</div>
+						<h1 class="mainbock__title">Travel, enjoy
+							and live a new and full life
+						</h1>
+						<div class="mainbock__text">
+							Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
+						</div>
+						<div class="mainbock__actions">
+							<a href="" class="mainbock__button button">Find out more</a>
+							<div class="mainbock__video video">
+								<a href="" class="video__button">
+								</a>
+								<a href="" class="video__text">Play Demo</a>
+							</div>
+						</div>
+					</div>
+					<div class="mainbock__image-ibg">
+						<picture><source srcset="img/main.webp" type="image/webp"><img src="img/main.png?_v=1644859243685" alt=""></picture>
+					</div>
+				</div>
+			</section>
+			<section class="page__services services">
+				<div class="services__container">
+					<h2 class="services__title title">CATEGORY</h2>
+					<h4 class="services__subtitle subtitle">We Offer Best Services</h4>
+					<div class="services__items">
+						<div class="services__item item-services">
+							<div class="item-services__icon">
+								<img src="img/best/01.svg?_v=1644859243685" alt="">
+							</div>
+							<div class="item-services__body">
+								<div class="item-services__title">Calculated Weather </div>
+								<div class="item-services__text">Built Wicket longer admire do barton vanity itself do in it.</div>
+							</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__icon">
+								<img src="img/best/02.svg?_v=1644859243685" alt="">
+							</div>
+							<div class="item-services__body">
+								<div class="item-services__title">Calculated Weather </div>
+								<div class="item-services__text">Built Wicket longer admire do barton vanity itself do in it.</div>
+							</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__icon">
+								<img src="img/best/03.svg?_v=1644859243685" alt="">
+							</div>
+							<div class="item-services__body">
+								<div class="item-services__title">Calculated Weather </div>
+								<div class="item-services__text">Built Wicket longer admire do barton vanity itself do in it.</div>
+							</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__icon">
+								<img src="img/best/04.svg?_v=1644859243685" alt="">
+							</div>
+							<div class="item-services__body">
+								<div class="item-services__title">Calculated Weather </div>
+								<div class="item-services__text">Built Wicket longer admire do barton vanity itself do in it.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__selling selling">
+				<div class="selling__container">
+					<h2 class="selling__title title">Top Selling</h2>
+					<h3 class="selling__subtitle subtitle">Top Destinations</h3>
+					<div class="selling__items">
+						<div class="selling__item item-selling">
+							<a href="" class="item-selling__image-ibg">
+								<picture><source srcset="img/top/01.webp" type="image/webp"><img src="img/top/01.jpg?_v=1644859243685" alt=""></picture>
+							</a>
+							<div class="item-selling__body">
+								<div class="item-selling__info">
+									<div class="item-selling__country">Rome, Italty</div>
+									<div class="item-selling__price">$5,42k</div>
+								</div>
+								<div class="item-selling__days _icon-telegram">10 Days Trip</div>
+							</div>
+						</div>
+						<div class="selling__item item-selling">
+							<a href="" class="item-selling__image-ibg">
+								<picture><source srcset="img/top/02.webp" type="image/webp"><img src="img/top/02.jpg?_v=1644859243685" alt=""></picture>
+							</a>
+							<div class="item-selling__body">
+								<div class="item-selling__info">
+									<div class="item-selling__country">London, UK</div>
+									<div class="item-selling__price">$4,42k</div>
+								</div>
+								<div class="item-selling__days _icon-telegram">13 Days Trip</div>
+							</div>
+						</div>
+						<div class="selling__item item-selling">
+							<a href="" class="item-selling__image-ibg">
+								<picture><source srcset="img/top/03.webp" type="image/webp"><img src="img/top/03.jpg?_v=1644859243685" alt=""></picture>
+							</a>
+							<div class="item-selling__body">
+								<div class="item-selling__info">
+									<div class="item-selling__country">Full Europe</div>
+									<div class="item-selling__price">$15k</div>
+								</div>
+								<div class="item-selling__days _icon-telegram">28 Days Trip</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<section class="page__steps steps">
+				<div class="steps__container">
+					<div class="steps__content content-steps">
+						<h3 class="content-steps__title title">Easy and Fast</h3>
+						<h2 class="content-steps__subtitle subtitle">Book your next trip
+							in 3 easy steps</h2>
+						<div class="content-steps__items">
+							<div class="content-steps__item item-step">
+								<div class="item-step__icon">
+									<img src="img/steps/01.svg?_v=1644859243685" alt="">
+								</div>
+								<div class="item-step__body">
+									<div class="item-step__title">Choose Destination</div>
+									<div class="item-step__text">Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Urna, tortor tempus. </div>
+								</div>
+							</div>
+							<div class="content-steps__item item-step">
+								<div class="item-step__icon">
+									<img src="img/steps/02.svg?_v=1644859243685" alt="">
+								</div>
+								<div class="item-step__body">
+									<div class="item-step__title">Choose Destination</div>
+									<div class="item-step__text">Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Urna, tortor tempus. </div>
+								</div>
+							</div>
+							<div class="content-steps__item item-step">
+								<div class="item-step__icon">
+									<img src="img/steps/03.svg?_v=1644859243685" alt="">
+								</div>
+								<div class="item-step__body">
+									<div class="item-step__title">Choose Destination</div>
+									<div class="item-step__text">Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Urna, tortor tempus. </div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+					<div class="steps__card card">
+						<div class="card__item item-card">
+							<a href="" class="item-card__image-ibg">
+								<picture><source srcset="img/greece.webp" type="image/webp"><img src="img/greece.jpg?_v=1644859243685" alt=""></picture>
+							</a>
+							<div class="item-card__body">
+								<a href="" class="item-card__title">Trip To Greece</a>
+								<div class="item-card__info">
+									<div class="item-card__data">14-29 June</div>
+									<span>|</span>
+									<div class="item-card__name">by Robbin joseph</div>
+								</div>
+								<div class="item-card__icons">
+									<a href="" class="item-card__icon _icon-leaf"></a>
+									<a href="" class="item-card__icon _icon-map"></a>
+									<a href="" class="item-card__icon _icon-telegram"></a>
+								</div>
+								<div class="item-card__footer">
+									<div class="item-card__people _icon-city"><span>24 &nbsp;</span>people going</div>
+									<a href="" class="item-card__like _icon-like"></a>
+								</div>
+							</div>
+						</div>
+						<div class="steps__prompt prompt">
+							<div class="prompt__image">
+								<picture><source srcset="img/prompt.webp" type="image/webp"><img src="img/prompt.jpg?_v=1644859243685" alt="prompt"></picture>
+							</div>
+							<div class="prompt__body">
+								<div class="prompt__subtitle">Ongoing</div>
+								<a href="" class="prompt__title">Trip to rome</a>
+								<div class="prompt__completed completed">
+									<div class="completed__text"><span>40%</span> completed</div>
+									<div class="completed__scale">
+										<span class="completed__level"></span>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<section class="page__testimonials testimonials">
+				<div class="testimonials__container">
+					<div class="testimonials__info">
+						<h3 class="testimonials__title title">Testimonials</h3>
+						<h2 class="testimonials__subtitle subtitle">What people say
+							about Us.</h2>
+						<div class="testimonials__dotts"></div>
+					</div>
+					<div class="testimonials__slider">
+						<div class="testimonials__swiper ">
+							<div class="testimonials__slide">
+								<div class="testimonials__content">
+									<div class="testimonials__image">
+										<picture><source srcset="img/testimonials/01.webp" type="image/webp"><img src="img/testimonials/01.jpg?_v=1644859243685" alt="testimonials"></picture>
+									</div>
+									<div class="testimonials__text">3“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</div>
+									<div class="testimonials__name">Mike taylor</div>
+									<div class="testimonials__place">Lahore, Pakistan</div>
+								</div>
+							</div>
+							<div class="testimonials__slide">
+								<div class="testimonials__content">
+									<div class="testimonials__image">
+										<picture><source srcset="img/testimonials/02.webp" type="image/webp"><img src="img/testimonials/02.jpg?_v=1644859243685" alt="testimonials"></picture>
+									</div>
+									<div class="testimonials__text">3“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</div>
+									<div class="testimonials__name">Mike taylor</div>
+									<div class="testimonials__place">Lahore, Pakistan</div>
+								</div>
+							</div>
+
+							<div class="testimonials__slide">
+								<div class="testimonials__content">
+									<div class="testimonials__image">
+										<picture><source srcset="img//testimonials/03.webp" type="image/webp"><img src="img//testimonials/03.jpg?_v=1644859243685" alt="testimonials"></picture>
+									</div>
+									<div class="testimonials__text">3“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</div>
+									<div class="testimonials__name">Mike taylor</div>
+									<div class="testimonials__place">Lahore, Pakistan</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+
+				</div>
+			</section>
+			<div class="page__partners partners">
+				<div class="partners__container">
+					<div class="partners__items">
+						<a href="" class="partners__item">
+							<img src="img/companies/01.svg?_v=1644859243685" alt="partner">
+						</a>
+						<a href="" class="partners__item">
+							<img src="img/companies/02.svg?_v=1644859243685" alt="partner">
+						</a>
+						<a href="" class="partners__item">
+							<img src="img/companies/03.svg?_v=1644859243685" alt="partner">
+						</a>
+						<a href="" class="partners__item">
+							<img src="img/companies/04.svg?_v=1644859243685" alt="partner">
+						</a>
+
+					</div>
+				</div>
+			</div>
+			<section class="page__subscribe subscribe">
+				<div class="subscribe__container">
+					<div class="subscribe__content">
+						<h3 class="subscribe__title">Subscribe to get information, latest news and other
+							interesting offers about Cobham</h3>
+						<form action="#" class="subscribe__form">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Your email" class="subscribe__input input _icon-mail">
+							<button type="submit" class="subscribe__button">Subscribe</button>
+						</form>
+						<div class="subscribe__decor subscribe__decor_left">
+							<img src="img/decor3.svg?_v=1644859243685" alt="decor">
+						</div>
+						<div class="subscribe__decor subscribe__decor_right">
+							<img src="img/decor4.svg?_v=1644859243685" alt="decor">
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__main">
+						<a href="" class="footer__logo">Jadoo.</a>
+						<div class="footer__text">Book your trip in minute, get full
+							Control for much longer.
+						</div>
+					</div>
+					<div data-spollers="479,max" class="footer__menu menu-footer spollers">
+						<div class="menu-footer__column spollers__item">
+							<button type="button" data-spoller class="menu-footer__title spollers__title">Company</button>
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">About</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Careers</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Mobile</a>
+								</li>
+							</ul>
+						</div>
+						<div class="menu-footer__column spollers__item">
+							<button type="button" data-spoller class="menu-footer__title spollers__title">Contact</button>
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Help/FAQ</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Press</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Affilates</a>
+								</li>
+							</ul>
+						</div>
+						<div class="menu-footer__column spollers__item">
+							<button type="button" data-spoller class="menu-footer__title spollers__title">More</button>
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Airlinefees</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Airline</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Low fare tips</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__actions actions">
+						<div class="actions__social social">
+							<a href="" class="social__item _icon-facebook"></a>
+							<a href="" class="social__item _icon-instagram"></a>
+							<a href="" class="social__item _icon-twitter"></a>
+						</div>
+						<div class="actions__app app">
+							<div class="app__title">Discover our app</div>
+							<div class="app__items">
+								<a href="" class="app__item">
+									<img src="img/GooglePlay.svg?_v=1644859243685" alt="">
+								</a>
+								<a href="" class="app__item">
+									<img src="img/PlayStore.svg?_v=1644859243685" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__right">
+					All rights reserved@jadoo.co
+				</div>
+			</div>
+		</footer>
+
+
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20220214192043"></script>
+</body>
+
+</html>
